@@ -28,7 +28,7 @@ from diffusers.configuration_utils import ConfigMixin, register_to_config
 from diffusers.utils import BaseOutput, logging
 from .embeddings import TimestepEmbedding, Timesteps
 from diffusers.models.modeling_utils import ModelMixin
-from diffusers.models.unet_2d_blocks import (
+from diffusers.models.unets.unet_2d_blocks import (
     CrossAttnDownBlock2D,
     DownBlock2D,
     UNetMidBlock2DCrossAttn,
